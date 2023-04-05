@@ -1,0 +1,32 @@
+body {
+  background: #10c50a;
+  padding: 0 24px;
+  color: rgb(190, 216, 218); /* Change my color to yellow */
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin: 1rem;
+  padding: 2px;
+}
+#grp {
+  width: 50%;
+  height: 45%;
+}
+
+#one {
+  width: 40%;
+  height: 40%;
+}
+
+#two {
+  width: 50%;
+}
+imgcl:hover {
+  width: 50%;
+  height: 50%;
+}
