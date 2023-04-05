@@ -1,12 +1,12 @@
 body {
-  background: #10c50a;
+  background: black;
   padding: 0 24px;
-  color: rgb(190, 216, 218); /* Change my color to yellow */
+  color: rgb(167, 244, 11); /* Change my color to yellow */
   margin: 0;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+h1:hover {
+  color: blue;
 }
 
 img {
@@ -14,19 +14,36 @@ img {
   padding: 2px;
 }
 #grp {
-  width: 50%;
+  width: 30%;
   height: 45%;
 }
 
 #one {
+  display: block;
   width: 40%;
   height: 40%;
 }
 
-#two {
-  width: 50%;
+#football {
+  width: 30%;
+  height: 30%;
+  transition: all ease-in;
 }
-imgcl:hover {
+
+.container {
+  background: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition: all 2s;
+}
+
+#football::after {
   width: 50%;
   height: 50%;
+  transform: rotate();
+}
+.container:hover {
+  transform: rotateY(10deg);
+  margin-right: 5rem;
 }
